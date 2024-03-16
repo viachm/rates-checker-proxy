@@ -1,0 +1,8 @@
+{
+    "name": "rates-checker-proxy",
+    "version": "1.0.0",
+    "description": "A CORS proxy running in a worker",
+    "main": "index.js",
+    "author": "Viacheslav Mukha",
+    "license": "MIT"
+}
