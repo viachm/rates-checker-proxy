@@ -1,5 +1,5 @@
-const ALLOWED_ORIGIN_PATTERN = /mliglehkfgodgioklanbdpnacfmfphmm/;
-const ALLOWED_TARGET_PATTERN = /.privatbank.ua/;
+const ALLOWED_ORIGIN_PATTERN = /mliglehkfgodgioklanbdpnacfmfphmm|giobplimenegjjbochlglapnpackpiop/;
+const ALLOWED_TARGET_PATTERN = /privatbank.ua|ukrsibbank.com/;
 
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
